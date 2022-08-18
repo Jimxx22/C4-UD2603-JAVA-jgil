@@ -39,4 +39,4 @@ create table ventas(
 insert into productos(nombre, precio)values ('producto1', 5),('producto2', 2),('producto3', 6),('producto4', 1),('producto5', 3);
 insert into cajeros(nombre_apels)values ('cajero1'),('cajero2'),('cajero3'),('cajero4'),('cajero5');
 insert into maquinas_registradoras(piso)values (1),(1),(2),(3);
-insert into ventas(codigo_producto,codigo_cajero,codigo_maquina_registradora)values (1,2,1),(2,2,1),(3,4,2),(4,5,4),(5,1,3);
+insert into ventas(codigo_producto,codigo_cajero,codigo_maquina_registradora)values (1,11,1),(11,11,1),(21,31,11),(31,41,31),(41,1,21);
